@@ -130,9 +130,18 @@ h4, p {
     width: 300px;
     margin-right: 20px;
 }
+.category {
+    width: 300px;
+    padding: 16px 0;
+}
+.sideList a {
+    padding: 16px 0;
+}
 .sideList li {
     border: 1px solid #EAF0ED;
-    padding: 16px 0;
+}
+.sideList li:hover {
+    background-color: #EAF0ED;
 }
 
 /* card*/
@@ -193,13 +202,18 @@ h4, p {
     font-size: 20px;
     color: #3F5D45;
     text-align: center;
-}
-.pagination li {
     width: 60px;
     height: 60px;
-    padding: 16px 0;
+    padding-top: 16px;
+}
+.pagination li {
     border: 1px solid #EAF0ED;
 }
-.pagination span {
+.pagination a:hover {
+    background-color: #3F5D45;
     color: #EAF0ED;
 }
+.pagination .hoverLight:hover {
+    background-color: #EAF0ED;
+}
+
